@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="glitz.com.glitzhack.AddCompany"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/txt_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Services"
+        android:inputType="textPersonName"
+        android:text="Services"
+        app:layout_constraintBottom_toTopOf="@+id/btn_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_pno" />
+
+    <EditText
+        android:id="@+id/txt_cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:ems="10"
+        android:hint="Company Name"
+        android:inputType="textPersonName"
+        android:text="Company Name"
+        app:layout_constraintBottom_toTopOf="@+id/txt_cwebsite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cin" />
+
+    <EditText
+        android:id="@+id/txt_cwebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="Website"
+        android:inputType="textPersonName"
+        android:text="Website"
+        app:layout_constraintBottom_toTopOf="@+id/txt_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cname" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/txt_pname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cwebsite" />
+
+    <EditText
+        android:id="@+id/txt_pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:ems="10"
+        android:hint="Person Name"
+        android:inputType="textPersonName"
+        android:text="Person Name"
+        app:layout_constraintBottom_toTopOf="@+id/txt_cd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email" />
+
+    <EditText
+        android:id="@+id/txt_pno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:ems="10"
+        android:hint="Person Contact"
+        android:inputType="textPersonName"
+        android:text="Person Contact"
+        app:layout_constraintBottom_toTopOf="@+id/txt_service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cd" />
+
+    <EditText
+        android:id="@+id/txt_cin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="CIN"
+        android:inputType="textPersonName"
+        android:text="CIN"
+        app:layout_constraintBottom_toTopOf="@+id/txt_cname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_cd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Short Decription"
+        android:inputType="textPersonName"
+        android:text="Short Decription"
+        app:layout_constraintBottom_toTopOf="@+id/txt_pno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_pname" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="141dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginTop="8dp"
+        android:text="Submit"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_service" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="right"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/a_name"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="NAME"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+        <TextView
+            android:id="@+id/a_reply"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="NAME_Value" />
+
+        <TextView
+            android:id="@+id/a_cuser"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:text="nmae" />
+
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="NAME" />
+
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="NAME_Value" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/inquiry_type"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:text="Inquiry type"/>
+
+    <TextView
+        android:id="@+id/inquiry_type1"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:text="NAME_Value" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:text="EMAIL" />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:text="NAME_Value" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/contact"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_weight="1"
+           android:layout_marginTop="60dp"
+           android:text="CONTACT NO." />
+
+       <TextView
+           android:id="@+id/contact1"
+           android:layout_width="89dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_weight="1"
+           android:layout_marginTop="60dp"
+           android:text="NAME_Value" />
+
+   </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

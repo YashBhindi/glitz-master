@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gaurang.glitz.reply">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="com`"
+        android:gravity="center_horizontal"
+        android:text="Send Raply"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/r_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User's Id number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/r_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User's Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/r_replay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Replay">
+
+            <requestFocus />
+        </EditText>
+
+    </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/r_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="OK" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

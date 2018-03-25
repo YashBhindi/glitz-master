@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "723256586332",
+    "firebase_url": "https://glitz-5ddff.firebaseio.com",
+    "project_id": "glitz-5ddff",
+    "storage_bucket": "glitz-5ddff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723256586332:android:8ae8f8e9469fe1c1",
+        "android_client_info": {
+          "package_name": "com.example.gaurang.glitz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723256586332-usj84ckmrhoqduke5pgnb8sd2i6q4lo1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaurang.glitz",
+            "certificate_hash": "9896102db830f251ebb3da8354b25e099ab386a3"
+          }
+        },
+        {
+          "client_id": "723256586332-okeaeiq8dudc34lg51nbg60ubf5kir0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuTlt_VFl9r_P6-eBQmG1_IdUiy32A1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723256586332-okeaeiq8dudc34lg51nbg60ubf5kir0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
